@@ -82,7 +82,7 @@ const Todo = ({ text, todo, todos, setTodos }) => {
   return (
     <div className="todo-List">
       <li clasname="todo-item">{text}</li>
-      <button onClick={deleteTodo} className="remove-btn"> Done</button>
+      <button onClick={deleteTodo} className="remove-btn">Done</button>
     </div>
   );
 };

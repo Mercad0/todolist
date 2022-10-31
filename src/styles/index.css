@@ -21,6 +21,7 @@ body {
     display: flex;
 }
 
+
 .addButton {
     margin-left: 15px;
     font-size: 15px;
@@ -38,7 +39,7 @@ body {
     font-weight: 200;
     padding: 5px 20px 5px;
     border: 1px solid black;
-    color: darkorange;
+    color: black;
     font-weight: 500;
 
 }
@@ -47,19 +48,18 @@ body {
     margin-top: 25px;
     margin-left: 10px;
     display: flex;
-    font-weight: 300;
-    color:orangered;
+    font-weight: 500;
+    color: darkcyan;
 
 }
 
 .remove-btn {
-    padding: 1px 7px 1px;
+    padding: 1px 10px 1px;
     margin-left: 25px;
     margin-bottom: 10px;
-    border: 1px solid lime;
+    border: 1px solid black;
     background-color: limegreen;
     border-radius: 100px 5px;
-    rotate: 10deg;
 }
 
 
