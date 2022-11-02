@@ -1,4 +1,6 @@
 import React, { useState } from "react";
+import { FaCarrot } from 'react-icons/fa';
+import { FaFingerprint } from "react-icons/fa"
 
 //include images into your bundle
 import rigoImage from "../../img/rigo-baby.jpg";
@@ -50,7 +52,7 @@ const Form = ({ inputText, setInputText, todos, setTodos }) => {
         className="todoInput"
       />
       <button onClick={submitHandler} className="addButton" type="submit">
-        <span>add</span>
+        <span><FaFingerprint /></span>
       </button>
     </form>
   );
@@ -82,7 +84,7 @@ const Todo = ({ text, todo, todos, setTodos }) => {
   return (
     <div className="todo-List">
       <li clasname="todo-item">{text}</li>
-      <button onClick={deleteTodo} className="remove-btn">Done</button>
+      <button onClick={deleteTodo} className="remove-btn"><FaCarrot /> </button>
     </div>
   );
 };

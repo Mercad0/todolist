@@ -45,7 +45,7 @@ body {
 }
 
 .todoBox {
-    margin-top: 25px;
+    margin-top: 10px;
     margin-left: 10px;
     display: flex;
     font-weight: 500;
@@ -53,17 +53,30 @@ body {
 
 }
 
+li {
+    margin-top: 10px;
+    background-color: pink;
+    border-radius: 15px;
+    height: fit-content;
+    width: fit-content;
+
+}
+
 .remove-btn {
-    padding: 1px 10px 1px;
-    margin-left: 25px;
-    margin-bottom: 10px;
-    border: 1px solid black;
-    background-color: limegreen;
-    border-radius: 100px 5px;
+    margin-top: 5px;
+    margin-left: 5px;
+    display: flex;
+    border: none;
+    color: orangered;
+    background-color: transparent;
+    font-size: 25px;
+    rotate: 315deg;
 }
 
 
-
+span {
+    color: red;
+}
 
 
 
