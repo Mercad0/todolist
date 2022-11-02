@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import { FaCarrot } from 'react-icons/fa';
-import { FaFingerprint } from "react-icons/fa"
+import { FaCarrot } from "react-icons/fa";
+import { FaFingerprint } from "react-icons/fa";
 
 //include images into your bundle
 import rigoImage from "../../img/rigo-baby.jpg";
@@ -52,7 +52,9 @@ const Form = ({ inputText, setInputText, todos, setTodos }) => {
         className="todoInput"
       />
       <button onClick={submitHandler} className="addButton" type="submit">
-        <span><FaFingerprint /></span>
+        <span>
+          <FaFingerprint />
+        </span>
       </button>
     </form>
   );
@@ -69,7 +71,7 @@ const TodoList = ({ todos, setTodos }) => {
             text={todo.text}
             id={todo.id}
             key={todo.id}
-			todo={todo}
+            todo={todo}
           />
         ))}
       </ul>
@@ -79,12 +81,14 @@ const TodoList = ({ todos, setTodos }) => {
 
 const Todo = ({ text, todo, todos, setTodos }) => {
   const deleteTodo = () => {
-	setTodos(todos.filter((e) => e.id !== todo.id));
+    setTodos(todos.filter((e) => e.id !== todo.id));
   };
   return (
     <div className="todo-List">
       <li clasname="todo-item">{text}</li>
-      <button onClick={deleteTodo} className="remove-btn"><FaCarrot /> </button>
+      <button onClick={deleteTodo} className="remove-btn">
+        <FaCarrot />{" "}
+      </button>
     </div>
   );
 };
