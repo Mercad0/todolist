@@ -7,14 +7,14 @@ body {
 
 
 .todoListBox {
-    display:flexbox;
+    display: flexbox;
     margin: 15px auto;
     margin-top: 50px;
     padding-top: 10px;
     background-color: floralwhite;
     height: fit-content;
     min-width: 100px;
-    max-width: 400px;
+    max-width: 500px;
     border-radius: 25px;
     box-shadow: 5px 5px 100px 5px darkblue;
 }
@@ -57,11 +57,10 @@ body {
 
 li {
     margin-top: 10px;
-    background-color: pink;
     border-radius: 15px;
     height: fit-content;
     width: fit-content;
-    border-bottom: 5px solid salmon;
+    border-bottom: 2px solid red;
 
 }
 
