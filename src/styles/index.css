@@ -57,7 +57,7 @@ body {
 
 li {
     margin-top: 10px;
-    border-radius: 15px;
+    border-radius: 7px;
     height: fit-content;
     width: fit-content;
     border-bottom: 2px solid red;
@@ -67,7 +67,6 @@ li {
 .remove-btn {
     margin-top: 5px;
     margin-left: 5px;
-    display: flex;
     border: none;
     color: orangered;
     background-color: transparent;
